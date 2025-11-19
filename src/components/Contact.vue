@@ -69,7 +69,7 @@
 
     const recaptchaContainer = ref(null);
     const recaptchaWidgetID = ref(null);
-    const recaptchatToken = ref('');
+    const recaptchaToken = ref('');
 
     function onRecaptchaSuccess(token) {
         recaptchaToken.value = token
